@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>MSP</title>
     <script>
     
 
@@ -21,11 +21,11 @@
           <?php
                  $second = strtolower ($_GET['loginUser']);
                  $login= str_replace('script',' ',$second);
-                 $data = $login."\n";
-                 $file_handle = fopen('This_S3ecReT_fIlE_P3alYods22.html' ,'a');
-                 fwrite($file_handle,$data);
-                 fwrite($file_handle,$data);
-                 fclose($file_handle);
+               //  $data = $login."\n";
+                // $file_handle = fopen('This_S3ecReT_fIlE_P3alYods22.html' ,'a');
+                 //fwrite($file_handle,$data);
+                 //fwrite($file_handle,$data);
+                 //fclose($file_handle);
                  echo "You searched for : ".$login."<br><br>";       
 ?>
 
