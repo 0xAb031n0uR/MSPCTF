@@ -13,3 +13,4 @@ flags
 - MSPCTF{0n1On_L4y3R} -> ctf8 py file
 - MSPCTF{SHARKS_CAN_SNIFF} -> ctf8 pcap file
 - MSPCTF{4dm1n_473_7h3_c00k135} -> ctf9
+- MSPCTF{easy_sqli_flag} -> sql1
