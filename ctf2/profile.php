@@ -3,10 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title></title>
-    <script>
-
-
-</script>
+    <script src="main.js"></script>
 <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
@@ -25,7 +22,7 @@
                  fwrite($file_handle,$data);
                  fclose($file_handle);
                  echo "You searched for : ".$login."<br><br>";
-                 echo "Note : Admin Reviewed Search History so don't type Malicious Text :) "       
+                // echo "Note : Admin Reviewed Search History so don't Type Malicious Text :) "       
 ?>
 
              <button actio class="btn" onclick="location.href='index.php'">Search again</button>
