@@ -13,4 +13,17 @@ flags
 - MSPCTF{0n1On_L4y3R} -> ctf8 py file
 - MSPCTF{SHARKS_CAN_SNIFF} -> ctf8 pcap file
 - MSPCTF{4dm1n_473_7h3_c00k135} -> ctf9
-- MSPCTF{easy_sqli_flag} -> sql1
+- MSPCTF{SQL1_1S_S0_D4MN_FUN} -> sql1
+
+
+
+
+sql query {sql1}
+create user 'mostafa'@'localhost' identified by 'password';
+create database phptest;
+use phptest;
+create table users (id int, username varchar(100), password varchar(100));
+insert into users values(1,'bob','pass');
+insert into users values(2,'admin','adminpass');
+GRANT ALL privileges ON phptest.* TO 'mostafa'@'localhost' IDENTIFIED BY 'password';
+mysql> GRANT ALL ON phptest.* TO 'mostafa'@'localhost';

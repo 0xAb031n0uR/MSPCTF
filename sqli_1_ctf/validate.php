@@ -13,7 +13,7 @@ $row = mysqli_fetch_array($query);
 if($row['username']=='bob'){
 	echo "<h1>You Need To Be admin to view flag</h1>";
 }else if($row['username']=='admin'){
-	echo "<h1>MSPCTF{easy_sqli_flag}</h1>";
+	echo "<h1>MSPCTF{SQL1_1S_S0_D4MN_FUN}</h1>";
 }else{
 	echo "<h1>Wrong username or password</h1>";
 }
