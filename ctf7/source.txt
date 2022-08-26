@@ -1,0 +1,8 @@
+
+if (isset($_GET['passwd'])) {
+        if (hash("md5", $_GET['passwd']) == '4b6544406098f683478fca26b2589e6d'){
+            echo "<script>alert('$flag')</script>";
+        } else {
+            echo "<script>alert('Wrong!');</script>";
+    }
+}
