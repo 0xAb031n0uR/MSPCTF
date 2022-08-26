@@ -7,7 +7,7 @@
 <body>
     <div class="two">
         <h1>more harder challenge</h1>
-        <form action="test.php" method="POST">
+        <form action="validate.php" method="POST">
         <p>Username</p>
         <input type="text" required placeholder="Username" name="user">
         <p>Password</p>

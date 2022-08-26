@@ -5,10 +5,7 @@ $username = $_POST['user'];
 $password = $_POST['pass'];
 
 /* SQL query vulnerable to SQL injection */
-$sql = "SELECT username
-FROM users
-WHERE username = '$username'" and
-password = '$password';
+$sql = "SELECT username FROM users WHERE username = '$username' and password = '$password'";
 
 /* Select queries return a result */
 if ($result = $mysqli->query($sql)) {
