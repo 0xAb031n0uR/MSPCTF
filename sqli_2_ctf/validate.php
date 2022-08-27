@@ -9,7 +9,7 @@ if (!preg_match('/^-?[0-9a-z]+$/m', $username)) {
   die("<h1>don't try to hach me :)</h1>");    
 }
 $password=stripslashes($password );
-$password=mysql_real_escape_string($password);
+//$password=mysql_real_escape_string($password);
 $query = mysqli_query($dbconnect, "SELECT * FROM users WHERE username='$username' and password='$password' ")
    or die (mysqli_error($dbconnect));
 

@@ -11,7 +11,7 @@
         <p>Username</p>
         <input type="text" required placeholder="Username" name="user">
         <p>Password</p>
-        <input type="password" required name="pass" placeholder="password">
+        <input type="password" required placeholder="password" name="pass">
        <button>submit</button>
        </form>
        </div>
